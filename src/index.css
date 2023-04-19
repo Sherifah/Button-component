@@ -1,0 +1,62 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  width: 100%;
+  margin: 0;
+  background-color: #ffffff;
+}
+
+.button-component {
+  display: grid;
+  width: 100%;
+  height: 100vh;
+  grid-template-areas: "nav main";
+  grid-template-columns: 200px 1fr;
+}
+
+
+
+/*Sidebar styling*/
+
+.menu-bar {
+  grid-area: nav;
+  background-color: #FAFBFD;
+  text-align: left;
+  padding-top: 40px;
+  padding-left: 25px;
+}
+
+.app-logo {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #090F31;
+  font-size: 13px;
+  font-weight: 600px;
+  line-height: 20px;
+  padding-bottom: 80px;
+}
+
+.nav-links {
+  display: grid;
+  gap: 25px;
+  font-size: 12px;
+  font-weight: 500;
+  color: #9E9E9E;
+}
+
+.nav-links .active {
+  color: #090F31;
+  font-weight: 700;
+}
+
+
+
+
+/*Main page styling*/
+
+.main-page {
+  padding-top: 50px;
+  padding-left: 80px;
+  text-align: left;
+}
