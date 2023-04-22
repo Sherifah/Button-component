@@ -37,7 +37,7 @@
 
 ## Overview
 
-![screenshot]<img src="public/NoteApp.png"><img/>
+![screenshot]<img src="public/Buttons.png"><img/>
 
   <div>
     Create a reusable button with all the states in the design and a page displaying all the states.
