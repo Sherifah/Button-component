@@ -1,6 +1,6 @@
 <!-- Please update value in the {}  -->
 
-<h1 align="center">Todo App</h1>
+<h1 align="center">Button Component</h1>
 
 <div align="center">
    Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
@@ -8,7 +8,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://todo-app-two-murex.vercel.app/">
+    <a href="https://button-component-mauve.vercel.app/">
       Demo
     </a>
     <span> | </span>
@@ -16,7 +16,7 @@
       Solution
     </a>
     <span> | </span>
-    <a href="https://devchallenges.io/challenges/hH6PbOHBdPm6otzw2De5">
+    <a href="https://devchallenges.io/challenges/ohgVTyJCbm5OZyTB2gNY">
       Challenge
     </a>
   </h3>
@@ -43,7 +43,7 @@
     Create a reusable button with all the states in the design and a page displaying all the states.
   </div>
 
-  <div>The app demo can be found here <a href="https://button-component-mauve.vercel.app//">Note App Demo</a>. It was really fun and just a little challenging working on my first React project. As a designer myself, I had to make sure that the app interface is as pixel-perfect as possible. The responsive on mobile, tablet as well as desktop was a bit tasking too but it was a great chance to practice my CSS :).</div>
+  <div>The app demo can be found here <a href="https://button-component-mauve.vercel.app//">Button Component</a>As a designer myself, I had to make sure that the app interface is as pixel-perfect as possible.</div>
 
 ### Built With
 
@@ -56,11 +56,8 @@
 
 This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/hH6PbOHBdPm6otzw2De5) was to build an application to complete the given user stories which are: 
 
-- [Create new notes]
-- [Edit existing notes]
-- [Delete notes]
-- [Save notes to local storage]
-- [Load notes from local storage]
+- Different button types: default, outline and text
+
 
 ## How To Use
 
