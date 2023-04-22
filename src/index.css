@@ -148,6 +148,7 @@ button {
 
 .text-focus {
   background-color: rgba(41, 98, 255, 0.1);
+  padding: 8px 16px;
 }
 
 .active {

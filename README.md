@@ -40,10 +40,10 @@
 ![screenshot]<img src="public/NoteApp.png"><img/>
 
   <div>
-    This is a note-taking application built using React.js. The app allows users to create, edit, and delete notes. Notes can be saved and loaded from the browser's local storage.
+    Create a reusable button with all the states in the design and a page displaying all the states.
   </div>
 
-  <div>The app demo can be found here <a href="https://todo-app-two-murex.vercel.app/">Note App Demo</a>. It was really fun and just a little challenging working on my first React project. As a designer myself, I had to make sure that the app interface is as pixel-perfect as possible. The responsive on mobile, tablet as well as desktop was a bit tasking too but it was a great chance to practice my CSS :).</div>
+  <div>The app demo can be found here <a href="https://button-component-mauve.vercel.app//">Note App Demo</a>. It was really fun and just a little challenging working on my first React project. As a designer myself, I had to make sure that the app interface is as pixel-perfect as possible. The responsive on mobile, tablet as well as desktop was a bit tasking too but it was a great chance to practice my CSS :).</div>
 
 ### Built With
 
