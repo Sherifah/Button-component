@@ -16,6 +16,10 @@ body {
   grid-template-columns: 200px 1fr;
 }
 
+footer {
+  text-align: left; 
+}
+
 
 
 /*Sidebar styling*/
@@ -45,7 +49,7 @@ body {
   color: #9E9E9E;
 }
 
-.nav-links .active {
+.nav-links .active-link {
   color: #090F31;
   font-weight: 700;
 }
@@ -59,4 +63,154 @@ body {
   padding-top: 50px;
   padding-left: 80px;
   text-align: left;
+}
+
+.active-page {
+  padding-bottom: 25px;
+}
+
+.btn-description {
+  font-size: 12px;
+  font-weight: 400;
+  color: #333333;
+  padding-bottom: 10px;
+}
+
+.btns {
+  display: grid;
+  /* grid-template-areas: 
+      "btn1 btn2"
+      "btn1 btn2"
+      "btn1 btn2"
+      "btn1 btn1"
+      "btn1 btn2"
+      "btn1 btn2 btn3"
+      "btn1 btn2 btn3 btn4"
+      "btn1 btn2 btn3 btn4"
+  ;
+  grid-template-columns: 240px 240px; */
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  /* border: 1px solid red; */
+}
+
+button {
+  cursor: pointer;
+  border-radius: 6px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 45px;
+}
+
+.btn-md {
+  padding: 8px 16px;
+
+}
+
+.btn-sm {
+  padding: 6px 12px;
+}
+
+.btn-lg {
+  padding: 11px 22px;
+}
+
+.default {
+  background-color: #E0E0E0;
+  box-shadow: 0px 2px 3px rgba(51, 51, 51, 0.2);
+  color: #3F3F3F;
+  border: none;
+}
+
+.default-focus {
+  background: #AEAEAE;
+  color: #3F3F3F;
+  border-radius: 6px;
+}
+
+.outline {
+  border: 1px solid #3D5AFE;
+  border-radius: 6px;
+  color: #3D5AFE;
+  background-color: white;
+}
+
+.outline-focus {
+  background-color: rgba(41, 98, 255, 0.1);;
+}
+
+.text {
+  border: none;
+  background-color: white;
+  color: #3D5AFE;
+  padding-left: 0px;
+}
+
+.text-focus {
+  background-color: rgba(41, 98, 255, 0.1);
+}
+
+.active {
+  background-color: #3D5AFE;
+  color: white;
+  border: none;
+}
+
+.disabled {
+  grid-area: btn1;
+  background-color: #E0E0E0;
+  color: #9E9E9E;
+  border: none;
+}
+
+.disabled-text {
+  border: none;
+  background-color: white;
+  color: #9E9E9E;
+  padding-left: 0px;
+}
+
+.enableShadow {
+  box-shadow: 0px 2px 3px rgba(0, 49, 202, 0.2);
+}
+
+.btn-default {
+  background-color: #E0E0E0;
+}
+
+.btn-primary {
+  background-color: #2962FF;
+  color: white;
+  box-shadow: 0px 2px 3px rgba(41, 98, 255, 0.2);
+}
+
+.btn-secondary {
+  background: #455A64;
+  color: white;
+  box-shadow: 0px 2px 3px rgba(69, 90, 100, 0.2);
+}
+
+.btn-danger {
+  background: #D32F2F;
+  color: white;
+  box-shadow: 0px 2px 3px rgba(211, 47, 47, 0.2);
+}
+
+.btn-default-focus {
+  background-color: #AEAEAE;
+}
+
+.btn-primary-focus {
+  background-color: #0039CB;
+  margin-top: 14px;
+}
+
+.btn-secondary-focus {
+  background-color: #1C313A;
+  margin-top: 14px;
+}
+
+.btn-danger-focus {
+  background-color: #9A0007;
+  margin-top: 14px;
 }

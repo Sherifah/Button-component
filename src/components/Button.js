@@ -1,12 +1,20 @@
 import React from 'react'
+import { MdOutlineAddShoppingCart } from "react-icons/md"
 
-function Button({ name, size, color, rounded, variant}) {
+function Button({ name, variant, size, color, className, startIcon, endIcon, description}) {
   return (
-    <div className='main-page'>
-      <h1 className='active-page'>Buttons</h1>
-      <div>&lt;Button variant=""{variant}"" /&gt;</div>
-      <button type='button'>{name}</button>
+    <div >
+      <div className="btn-description" style={variant === "focus" ? {color: "#828282"} : {color: "#333333"} }>{description}</div>
+      <button 
+        type='button' 
+        className={`${className} ${className}-${variant} btn-${size} btn-${color} btn-${color}-${variant}`}
+      >
+      {startIcon && <span style={{color: "#ffffff"}}><MdOutlineAddShoppingCart size={14}/> </span>}
+        {name}
+      {endIcon && <span style={{color: "#ffffff"}}><MdOutlineAddShoppingCart size={14}/> </span>}
+      </button>
     </div>
+    
   )
 }
 

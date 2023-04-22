@@ -8,7 +8,7 @@ function Sidebar() {
         <div className='nav-link'>Colors</div>
         <div className='nav-link'>Typography</div>
         <div className='nav-link'>Spaces</div>
-        <div className='nav-link active'>Buttons</div>
+        <div className='nav-link active-link'>Buttons</div>
         <div className='nav-link'>Inputs</div>
         <div className='nav-link'>Grid</div>
       </nav>
